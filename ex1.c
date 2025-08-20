@@ -7,7 +7,7 @@ int main()
     int soma;
     int div;
     int mult;
-    int sub
+    int sub;
   
     printf("digite o número : "); 
     scanf("%d", &a); 
