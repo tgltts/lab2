@@ -3,8 +3,9 @@
 int main()
 {
   float a;
+  float celsius;
 
-  float conta;
+  float contaf;
   
 
   printf("digite o valor na escala celsius : ");  
@@ -12,7 +13,7 @@ int main()
   celsius = a;
   contaf = (a*1.8) + 32 ;
   
-   printf("Uma temperatura de %f graus Celsius equivale a %f graus Fahrenheit.",celsius,conta);
+   printf("Uma temperatura de %f graus Celsius equivale a %f graus Fahrenheit.",celsius,contaf);
 
    return 0;
 }
