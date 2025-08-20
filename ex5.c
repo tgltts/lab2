@@ -14,7 +14,7 @@ int main()
   area =  PI * (raio*raio);
   
 
-  printf("O valor da área = %f  \n", area ,);
+  printf("O valor da área = %f  \n", area);
 
   return 0;
 }
