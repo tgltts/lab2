@@ -7,13 +7,16 @@ int main()
   float imc;
 
   printf("Digite seu peso em quilogramas: ");
-  scanf("f%", &peso);
+  scanf("%f", &peso);
 
   printf("Digite sua altura em metros: ");
-  sacanf("f%", &altura);
+  scanf("%f", &altura);
 
-  imc = peso / (altura * altura)
-  printf("O IMC de uma pessoa com peso %f kg e altura %f m é igual a %f \n", peso, altura, imc)
+  imc = peso / (altura * altura);
+  printf("O IMC de uma pessoa com peso %f kg e altura %f m é igual a %f \n", peso, altura, imc);
+
+  return 0;
+}
 
 
   
